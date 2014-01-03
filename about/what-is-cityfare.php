@@ -1,29 +1,3 @@
-<style>
-/*--MAIN CONTENT SECTION--*/
-#interior-content {
-	float: left;
-	width: 565px;	
-}
-
-#interior-content h1 {
-	padding:20px 0 5px 0;
-	text-align: center;
-	font-family: 'Roboto Slab', serif;
-	font-weight: lighter;
-	font-size: 46px;
-	color: #814b9d;
-}
-
-#interior-content p {
-	margin:0 auto 20px auto;
-	width: 100%;
-	font-family: 'Armata', sans-serif;
-	font-size: 12px;
-	color: #000000;
-}
-
-</style>
-
 <?php $title = "What is City Fare"; ?>
 
 <?php include '../includes/header.php'; ?>
@@ -48,7 +22,27 @@
 			<p>In addition to delivering Meals on Wheels, City Fare serves meals at lunchtime in senior center dining rooms and senior housing complexes throughout New Castle County.</p>
 			
 			<p>City Fare receives funding from the State of Delaware through the Division of Services for Aging and Adults with Physical Disabilities, donations from the people it serves, and significant contributions from Meals on Wheels Delaware and the Kenny Family Foundation.</p>
-		</div>
+			
+			<ul class="logos">
+				<li><img src="/images/DSAA-logo.png" alt="Division of Services for Aging Adults with Physical Disabilities" /></li>
+			</ul>
+			<ul class="logos">
+				<li class="half"><img src="/images/mow-logo.png" alt="Meals on Wheels Delaware" /></li>
+				<li class="half"><img src="/images/kenny-logo.png" align="The Kenny Foundation" /></li>
+			</ul>
+			
+			<h3>City Fare Timeline</h3>	
+			<h4>1986-2003</h4>
+			<p>Meals on Wheels and Senior Center Dining Room meals served in the City of Wilmington.</p>
+			<h4>2003</h4>
+			<p>Meals on Wheels delivery territory expanded from City of Wilmington to all of New Castle County.</p>			
+			<h4>2012</h4>
+			<p>Senior Dining Rooms territory expanded from City of Wilmington to all of New Castle County.</p>
+			
+			<p>Although we have outgrown the “city” description in our moniker, “County Fare” sounds a little too country for these parts, and after much consideration we are sticking with our original name.</p>
+			
+			<p>We are proud to have accomplished this significant program growth as a result of our sound financial management and high operational standards. Our dedicated staff all work diligently to ensure that older Delawareans in New Castle County are served delicious, healthy, hearty fare each day.</p>
+		</div><!-- END .interior-content -->
 		
 		<div class="clear"></div><!-- END .clear -->
 	</div><!-- END .interior-container -->

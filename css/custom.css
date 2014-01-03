@@ -249,8 +249,126 @@ ul#slider-nav li:last-child {
 /*--------------------------------------------
 INTERIOR PAGES
 ---------------------------------------------*/
+/*--MAIN CONTENT SECTION--*/
+#interior-content {
+	float: left;
+	width: 565px;	
+}
 
-/*--SIDEBARS--*/
+#interior-content h1 {
+	padding:20px 0 5px 0;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	font-size: 38px;
+	color: #814b9d;
+}
+
+#interior-content p {
+	margin:0 auto 20px auto;
+	width: 100%;
+	font-family: 'Armata', sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: -1px;
+	color: #000000;
+}
+
+ul.logos {
+	margin: 0 auto 10px; 
+	width: 400px;
+}
+
+ul.logos li {
+	display: inline;
+	width: 400px;
+}
+
+ul.logos li.half {
+	margin-left: 60px;
+	width: 200px; 
+}
+
+#interior-content h3 {
+	padding:10px 0 8px 0;
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	font-size: 28px;
+	color: #814b9d;
+}
+
+#interior-content h4 {
+	padding:0 0 8px 0;
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	font-size: 26px;
+	color: #4390a6;
+}
+
+/* BEGIN FAQ SECTION */
+.faq-item {
+	margin-bottom: 20px;
+}
+
+.faq-q-line {
+	float: left; 
+	width: 35px;	
+}
+
+.faq-left-line {
+	float: left; 
+	width: 530px;
+}
+
+
+.faq-teal {
+	font-family: 'Armata', sans-serif;
+	font-size: 20px;
+	letter-spacing: -1px;
+	color: #4390a6;	
+}
+
+.faq-text {
+	position: relative;
+	top: 7px;
+	float: left;
+	width: 530px;
+	font-family: 'Armata', sans-serif;
+	font-size: 12px;
+	letter-spacing: -1px;
+	color: #000000;
+}
+
+.faq-text a, .faq-text a:visited {
+	font-family: 'Armata', sans-serif;
+	font-size: 12px;
+	letter-spacing: -1px;
+	color: #000000;
+}
+
+.faq-text a:hover {
+	text-decoration: underline;
+}
+/* END FAQ SECTION */
+
+/* BEGIN QUOTE SECTION */
+.quote-item {
+	padding-top: 15px;
+}
+
+.quote-item p {
+	margin:0 auto 8px auto !important;
+}
+
+span.quote-signature {
+	font-family: 'Armata', sans-serif;
+	font-size: 16px;
+	letter-spacing: -1px;
+	color: #000000;	
+}
+/* END QUOTE SECTION */
+
+/* BEGIN SIDEBARS */
 #interior-sidebar {
 	margin-right: 28px;
 	float: left;
@@ -280,7 +398,7 @@ INTERIOR PAGES
 	font-size: 15px;
 	color: #ffffff;
 }
-
+/* END SIDEBARS */
 
 /*--------------------------------------------
 FOOTER
