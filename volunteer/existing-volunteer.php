@@ -6,10 +6,12 @@
 	<div class="interior-container">
 		<div id="interior-sidebar">
 			<ul>
-				<li><a href="<?php echo SITE_ROOT; ?>/about/what-is-cityfare.php">What is<br/>City Fare</a></li>
-				<li><a href="<?php echo SITE_ROOT; ?>/about/becoming-volunteer.php">Becoming a<br/>Volunteer FAQs</a></li>
-				<li><a href="<?php echo SITE_ROOT; ?>/about/existing-volunteer.php">Existing<br/>Voluteer FAQs</a></li>
-				<li><a href="<?php echo SITE_ROOT; ?>/about/our-volunteers.php">Hear from<br/>Our Volunteers</a></li>
+				<li><a href="<?php echo SITE_ROOT; ?>/volunteer/become-volunteer.php">Become a<br/>Volunteer</a></li>
+				<li><a href="<?php echo SITE_ROOT; ?>/volunteer/adopt-route.php">Adopt a<br/>Route</a></li>
+				<li><a href="<?php echo SITE_ROOT; ?>/volunteer/why-volunteer.php">Why<br/>Volunteer?</a></li>
+				<li><a href="<?php echo SITE_ROOT; ?>/volunteer/becoming-volunteer.php">Becoming a<br/>Volunteer FAQs</a></li>
+				<li><a href="<?php echo SITE_ROOT; ?>/volunteer/existing-volunteer.php">Existing<br/>Voluteer FAQs</a></li>
+				<li><a href="<?php echo SITE_ROOT; ?>/volunteer/our-volunteers.php">Hear from<br/>Our Volunteers</a></li>
 			</ul>
 		</div><!-- END #interior-sidebar -->
 		

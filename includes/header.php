@@ -25,6 +25,7 @@
 	<!-- JAVASCRIPTS -->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="/js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="/js/jquery.validate.min.js"></script>
 	<script type="text/javascript" src="/js/site.js"></script>
 
 </head>
@@ -43,8 +44,8 @@
 	<div id="top-shadow"></div><!-- END #top-shadow -->
 	<div class="container">
 		<ul id="top-buttons">
-			<li><a href="/donate-btn.php" id="donate-btn"></a></li>
-			<li><a href="/volunteer.php" id="volunteer-btn"></a></li>
+			<li><a href="/site/donate.php" id="donate-btn"></a></li>
+			<li><a href="/volunteer/become-volunteer.php" id="volunteer-btn"></a></li>
 		</ul>
 		
 		<a href="/" id="logo"></a>
@@ -60,8 +61,8 @@
 			<li><a href="/">Home</a></li>
 			<li><a href="<?php echo SITE_ROOT; ?>/about/what-is-cityfare.php">About</a></li>
 			<li><a href="<?php echo SITE_ROOT; ?>/recognition/corporate-sponsors.php">Recognition</a></li>
-			<li><a href="<?php echo SITE_ROOT; ?>/resources.php">Resources</a></li>
-			<li><a href="<?php echo SITE_ROOT; ?>/contact.php">Contact</a></li>
+			<li><a href="<?php echo SITE_ROOT; ?>/site/resources.php">Resources</a></li>
+			<li><a href="<?php echo SITE_ROOT; ?>/site/contact.php">Contact</a></li>
 		</ul>
 		
 	</div><!-- END #main-nav -->

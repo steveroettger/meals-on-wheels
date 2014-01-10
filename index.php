@@ -2,14 +2,20 @@
 
 <?php include 'includes/header.php'; ?>
 
+<script type="text/javascript">
+	$( document ).ready(function() {
+	    $("ul#slider-nav li:nth-child(3n)").css( "margin-right", "0" );
+	});
+</script>
+
 <div class="page-wrap">
 	<div class="interior-container">
 		<div id="feature-slider" class="flexslider">
 			<span id="slider-headline"></span>
 			<ul id="slider-nav">
-				<li><a href="#"><img src="/images/slider-get-btn.png" /></a></li>
-				<li><a href="#"><img src="/images/slider-give-btn.png" /></a></li>
-				<li><a href="#"><img src="/images/slider-deliver-btn.png" /></a></li>
+				<li><a href="<?php echo SITE_ROOT; ?>/meals/eligibility.php"><img src="/images/slider-get-btn.png" /></a></li>
+				<li><a href="<?php echo SITE_ROOT; ?>/site/donate.php"><img src="/images/slider-give-btn.png" /></a></li>
+				<li><a href="<?php echo SITE_ROOT; ?>/volunteer/volunteer-application.php"><img src="/images/slider-deliver-btn.png" /></a></li>
 			</ul>
 			<ul class="slides">
 				<li><img src="/images/slider-img1.jpg" /></li>

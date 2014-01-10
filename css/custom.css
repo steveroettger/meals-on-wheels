@@ -264,14 +264,31 @@ INTERIOR PAGES
 	color: #814b9d;
 }
 
+#interior-content h2 {
+	padding:20px 0 10px 0;
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	font-size: 26px;
+	text-align: center;
+	color: #4390a6;
+}
+
 #interior-content p {
-	margin:0 auto 20px auto;
+	margin:0 auto 15px auto;
 	width: 100%;
 	font-family: 'Armata', sans-serif;
 	font-size: 12px;
 	line-height: 18px;
 	letter-spacing: -1px;
 	color: #000000;
+}
+
+#interior-content p a, #interior-content p a:visited {
+	color: #000000;
+}
+
+#interior-content p a:hover {
+	text-decoration: underline;
 }
 
 ul.logos {
@@ -328,6 +345,14 @@ ul.logos li.half {
 	color: #4390a6;	
 }
 
+.faq-purple {
+	padding:10px 0 20px 20px;
+	font-family: 'Armata', sans-serif;
+	font-size: 20px;
+	letter-spacing: -1px;
+	color: #814b9d;	
+}
+
 .faq-text {
 	position: relative;
 	top: 7px;
@@ -368,23 +393,212 @@ span.quote-signature {
 }
 /* END QUOTE SECTION */
 
+/* BEGIN CORPORATE SPONSORS */
+table#sponsor-logos {
+	width: 100%;
+}
+
+table#sponsor-logos tr {
+	width: 100%;
+}
+
+table#sponsor-logos tr td {
+	padding: 20px 0;
+	text-align: center;
+	width: 50%;
+}
+
+table#sponsor-listing {
+	padding-top: 20px;
+}
+
+table#sponsor-listing tr td a, 
+table#sponsor-listing tr td a {
+	font-family: 'Armata', sans-serif;
+	font-size: 12px;
+	letter-spacing: -1px;
+	color: #000000;
+}
+
+table#sponsor-listing tr td {
+	padding-right: 35px;
+}
+/* END CORPORATE SPONSORS */
+
+/* BEGIN CIVIC SPONSORS */
+hr.teal-line {
+	height: 2px;
+	border: none;
+	background: #4390a6;
+}
+
+ul.civic-column {
+	float: left;	
+	margin:25px 0 0 6px;
+}
+
+ul.civic-column li {
+	margin-bottom: 2px;
+	width: 275px;
+	font-family: 'Armata', sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: -1px;
+	color: #000000;
+}
+/* END CIVIC SPONSORS */
+
+/* BEGIN RESOURCES */
+table#resources {
+	margin: 20px auto 0 auto;
+	width: 700px;
+}
+
+table#resources tr td {
+	margin-bottom: 20px;
+	width: 250px;
+	text-align: center;
+}
+
+table#resources tr td a img {
+	padding-bottom: 10px;
+}
+
+table#resources tr td a, table#resources tr td a:visited {
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #000000;
+}
+/* END RESOURCES */
+
+/* BEGIN WHY VOLUNTEER LIST */
+ul#volunteer-list {
+	padding:20px 0 0 20px;
+	list-style-type: disc;
+}
+
+ul#volunteer-list li {
+	padding-bottom: 5px;
+	font-family: 'Armata', sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: -1px;
+	color: #000000;
+}
+/* END WHY VOLUNTEER LIST */
+
+/* BEGIN MEALS SECTION */
+#mow-box {
+	position: relative;
+	float: left;
+	margin:10px 40px 40px 30px;
+	width: 234px;
+	height: 313px;
+	background: url('../images/mow-box.png') no-repeat left top;
+}
+
+#locations-box {
+	position: relative;
+	float: left;
+	margin:10px 0 40px 0;
+	width: 234px;
+	height: 313px;
+	background: url('../images/locations-box.png') no-repeat left top;
+}
+
+#mow-box h2, #locations-box h2 {
+	color: #ffffff !important;
+} 
+
+#mow-box p, #locations-box p {
+	margin: 0 auto;
+	max-width: 200px;
+	width: 200px;
+	font-size: 13px !important;
+	color: #ffffff !important;
+}
+
+#mow-box h3, #locations-box h3  {
+	position: absolute;
+	bottom: 5px;
+	left: 50px;
+	font-size: 22px !important;
+	text-align: center !important;
+	color: #ffffff !important;
+}  
+
+#locations-box h3 a, #locations-box h3 a:visited {
+	text-align: center !important;
+	color: #ffffff !important;
+}
+
+table#location-listing {
+	margin: 0 auto;
+	width: 690px;
+}
+
+table#location-listing tr td {
+	padding-bottom: 5px;
+	width: 230px;
+	font-family: 'Armata', sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: -1px;
+	color: #000000;
+}
+
+table#location-listing tr td.col-label {
+	font-family: 'Armata', sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	letter-spacing: -1px;
+	color: #4390a6;
+}
+
+table#menu tr td {
+	width: 130px;
+	font-family: 'Armata', sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	letter-spacing: -1px;
+	text-align: center;
+	color: #000000;
+}
+
+table#menu tr td.day-label {
+	font-family: 'Armata', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	letter-spacing: -1px;
+	color: #4390a6;
+}
+
+table#menu tr td.option-label {
+	font-family: 'Armata', sans-serif;
+	font-size: 13px;
+	line-height: 15px;
+	letter-spacing: -1px;
+	color: #814b9d;
+}
+/* END MEALS SECTION */
+
 /* BEGIN SIDEBARS */
 #interior-sidebar {
 	margin-right: 28px;
 	float: left;
 	width: 157px;
 	min-height: 496px;
-	background: url('../images/sidebar-shadow.png') no-repeat top right;
+	background: url('../images/sidebar-shadow3.png') no-repeat top right;
 }
 
 #interior-sidebar ul {
 	position: relative;
-	top: 70px;
+	top: 65px;
 }
 
 #interior-sidebar ul li {
 	width: 164px;
-	height: 77px;
+	height: 73px;
 	text-align: center;
 	background: url('../images/sidebar-nav-btn.png') no-repeat;
 }
@@ -476,9 +690,214 @@ FOOTER
 /*--------------------------------------------
 FORM STYLES
 ---------------------------------------------*/
+/* CONTACT FORM */
+h1.form-header {
+	margin-bottom: 15px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	font-size: 38px;
+	color: #814b9d;
+}
+
+#contact-thanks {
+	float: left;
+	padding-right: 25px;
+	margin-right: 25px;
+	max-width: 424px;
+	min-height: 200px;
+	background: url('../images/contact-form-border.jpg') no-repeat right top;
+}
+
+#contact-thanks p {
+	position: relative;
+	top: 5px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	color: #4390a6;
+}
+
+form#contact {
+	float: left;
+	padding-right: 25px;
+	margin-right: 25px;
+	min-height: 450px;
+	background: url('../images/contact-form-border.jpg') no-repeat right top;
+}
+
+form#contact label {
+	float: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	color: #4390a6;
+	width: 90px;
+}
+
+form#contact input[type="text"] {
+	padding-left: 8px;
+	width: 350px;
+	height: 30px;
+	margin-bottom: 15px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 12px;
+	color: #333333;
+	-moz-box-shadow: inset 0 0 6px #000000;
+	-webkit-box-shadow: inset 0 0 6px #000000;
+	box-shadow: inset 0 0 6px #000000;
+	border: none;
+	outline: none;
+}
+
+form#contact textarea {
+	padding:8px 0 0 8px;
+	width: 350px;
+	max-width: 350px;
+	height: 200px;
+	max-height: 250px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 12px;
+	color: #333333;
+	-moz-box-shadow: inset 0 0 6px #000000;
+	-webkit-box-shadow: inset 0 0 6px #000000;
+	box-shadow: inset 0 0 6px #000000;
+	border: none;
+	outline: none;
+	overflow: auto;
+}
+
+form#contact input#contact-form-btn {
+	margin:10px 0 0 90px;
+	width: 139px;
+	height: 46px;
+	background: url('../images/contact-form-btn.png') no-repeat;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+ul#contact-nav {
+	float: left;
+}
+
+ul#contact-nav li {
+	min-width: 250px;
+	display: block;
+	font-family: 'Armata', sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+ul#contact-nav li img {
+	margin-right: 15px;
+}
+
+ul#contact-nav li a, ul#contact-nav li a:visited {
+	font-family: 'Armata', sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.name, .email, .subject, .message {
+	position: relative;
+}
+
+#contact label.error {
+    position: absolute;
+    top: -15px;
+    left: 92px;
+    width: 250px;
+    font-size:11px;
+	font-style: italic;
+    color: red;
+}
+
+/* END CONTACT FORM */
+
+/* BEGIN VOLUNTEER FORM */
+form#volunteer h3 {
+	font-size: 18px;
+}
+
+form#volunteer h5 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+form#volunteer label {
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #4390a6;
+}
+
+form#volunteer input[type="text"], form#volunteer input[type="date"], form#volunteer select {
+	padding-left: 8px;
+	width: 350px;
+	height: 30px;
+	margin-bottom: 10px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 12px;
+	color: #333333;
+	-moz-box-shadow: inset 0 0 6px #000000;
+	-webkit-box-shadow: inset 0 0 6px #000000;
+	box-shadow: inset 0 0 6px #000000;
+	border: none;
+	outline: none;
+}
+
+form#volunteer textarea {
+	padding:8px 0 0 8px;
+	margin-bottom: 10px;
+	width: 350px;
+	max-width: 350px;
+	height: 60px;
+	max-height: 100px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 12px;
+	color: #333333;
+	-moz-box-shadow: inset 0 0 6px #000000;
+	-webkit-box-shadow: inset 0 0 6px #000000;
+	box-shadow: inset 0 0 6px #000000;
+	border: none;
+	outline: none;
+	overflow: auto;
+}
+
+input#vol-form-btn {
+	width: 139px;
+	height: 46px;
+	background: url('../images/contact-form-btn.png') no-repeat;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+#volunteer .field {
+	position: relative;
+}
+
+#volunteer label.error {
+    position: absolute;
+    top: 27px;
+    left: 365px;
+    width: 250px;
+    font-size:11px;
+	font-style: italic;
+    color: red;
+}
+
+/* END VOLUNTEER FORM */
 
 /*--------------------------------------------
 MISC
 ---------------------------------------------*/
 .clear { clear:both; float:none; }
 .push { height: 125px; }
+.callout {
+	padding-bottom: 15px;
+	font-family: 'Armata', sans-serif;
+	font-size: 16px;
+	letter-spacing: -1px;
+	text-align: center;
+	color: #4390a6;
+}
