@@ -1,4 +1,4 @@
-<?php $title = "Adopt a Route"; ?>
+<?php $title = "Donate towards a Route"; ?>
 
 <?php include '../includes/header.php'; ?>
 
@@ -16,16 +16,12 @@
 		</div><!-- END #interior-sidebar -->
 		
 		<div id="interior-content">
-			<h1>Adopt a Route</h1>
-			<p>If you can’t spare your employees, but would like to support the program and our elderly neighbors, consider becoming a route sponsor.</p>
+			<h1>Donate towards a Route</h1>
 			
-			<p>You can Adopt a Route for $30 per day or $100 per week.</p>
+			<div id="route-donation">
 			
-			<p>Call 302-421-3731 for details or donate here.</p>
-			
-			<div style="padding-top: 5px; width: 100%; text-align: center;">
-				<a href="<?php echo SITE_ROOT; ?>/volunteer/donate-route.php"><img src="/images/donate-callout-btn.png" alt="Donate to City Fare" /></a>
 			</div>
+			
 		</div><!-- END #interior-content -->
 			
 		<div class="clear"></div><!-- END .clear -->
