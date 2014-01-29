@@ -1,0 +1,1 @@
+A static PHP/HTML/CSS/jQuery site for the City Fare Organization, an organization sponsored by Meals on Wheels Delaware.
