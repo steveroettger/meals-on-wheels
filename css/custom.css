@@ -223,22 +223,22 @@ ul#slider-nav li:last-child {
 	background: url('../images/sidebar-bkgd.jpg') no-repeat;
 }
 
-#sidebar-video {
+.sidebar-video {
 	padding: 15px 8px 8px 8px;
 }
 
-#sidebar-headline {
+.sidebar-headline {
 	margin: 0 auto;
 	width: 154px;
 	height: 50px;
 	background: url('../images/sidebar-headline.png') no-repeat;
 }
 
-#sidebar-content {
+.sidebar-content {
 	padding-top: 3px;
 }
 
-#sidebar-content p {
+.sidebar-content p {
 	margin:8px 0;
 	padding:0 8px;
 	font-family: 'Armata', sans-serif;

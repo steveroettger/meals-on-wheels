@@ -16,7 +16,7 @@
 		
 		<div id="interior-content">
 			<h1>Get a Meal</h1>
-			<p>Meals-on-Wheels Greater San Diego offers the choice of one or two nutritious meals provided seven days a week including holidays. Deliveries are made by caring volunteers between 10:45 am and 1:30 pm. Sunday meals are delivered on Saturday.</p>
+			<p>City Fare Meals-on-Wheels  offers the choice of one or two nutritious meals provided seven days a week including holidays. Deliveries are made by caring volunteers between 10:45 am and 1:30 pm. </p>
 		</div><!-- END #interior-content -->
 			
 		<div class="clear"></div><!-- END .clear -->

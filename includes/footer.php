@@ -4,8 +4,8 @@
 			<ul>
 				<li><img src="/images/address-icon.png" align="left" />1703 West 10th Street, Wilmington, DE 19805</li>
 				<li><img src="/images/phone-icon.png" align="left" />(302) 421-3734</li>
-				<li><img src="/images/fb-icon.png" align="left" /><a href="#">Follow us on Facebook</a></li>
-				<li><img src="/images/email-icon.png" align="left" /><a href="mailto:admin@cityfare.org">admin@cityfare.org</a></li>
+				<li><img src="/images/fb-icon.png" align="left" /><a href="https://www.facebook.com/CityFareMOW" target="_blank">Follow us on Facebook</a></li>
+				<li><img src="/images/email-icon.png" align="left" /><a href="mailto:info@cityfare.org">info@cityfare.org</a></li>
 			</ul>
 		</div><!-- END #footer-left -->
 		

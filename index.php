@@ -19,7 +19,11 @@
 			</ul>
 			<ul class="slides">
 				<li><img src="/images/slider-img1.jpg" /></li>
-				<li><img src="/images/slider-img2.jpg" /></li>
+				<li><img src="/images/slider-img2-2.jpg" /></li>
+                <li><img src="/images/slider-img3.jpg" /></li>
+				<li><img src="/images/slider-img4.jpg" /></li>
+				<li><img src="/images/slider-img5.jpg" /></li>
+                <li><img src="/images/slider-img6.jpg" /></li>
 			</ul>
 		</div><!-- END #feature-slider -->
 		
@@ -31,15 +35,33 @@
 			</div><!-- END .main-content -->
 		</div><!-- END #home-container -->
 		
-		<div id="home-sidebar">
-			<div id="sidebar-video"><img src="/images/sidebar-video.jpg" /></div>
-			<div id="sidebar-headline"></div>
-			<div id="sidebar-content">
-				<p>Mrs. Davis is proud to say she made it to the age of 90.</p>
-				<p>“If you hit 90, you tell. Before that, well….”</p>
-				<p>She has many fond memories of Mother’s Days she spent with her mother and her own children. “My parents lived in Atlantic City. I’d dress up my kids and we’d go on a parade on the Boardwalk. These are the things that stay with you.”</p>
-				<p>She encourages her own grandchildren to pass along those special memories. “I’ll say to them, when you’re a grandmom, tell them stories about your past.”</p>
-			</div>
+		<div id="home-sidebar" class="flexslider">
+			<ul class="slides">
+				<li>
+					<div class="sidebar-video">
+						<a href="https://www.youtube.com/watch?v=jaVC3YqIXIo" target="_blank">			
+						<img src="/images/sidebar-video.jpg" border="0" /></a>
+					</div><!-- END .sidebar-video -->
+					<div class="sidebar-headline"></div>
+					<div class="sidebar-content">
+						<p>Mrs. Davis is proud to say she made it to the age of 90.</p>
+						<p>“If you hit 90, you tell. Before that, well….”</p>
+						<p>She has many fond memories of Mother’s Days she spent with her mother and her own children. “My parents lived in Atlantic City. I’d dress up my kids and we’d go on a parade on the Boardwalk. These are the things that stay with you.”</p>
+						<p>She encourages her own grandchildren to pass along those special memories. “I’ll say to them, when you’re a grandmom, tell them stories about your past.”</p>
+					</div><!-- END #sidebar-content -->
+				</li>
+				
+				<li>
+					<div class="sidebar-video">
+						<a href="http://www.youtube.com/watch?v=zsoHFVRH4t4" target="_blank">			
+						<img src="/images/sidebar-video2.jpg" border="0" /></a>
+					</div><!-- END .sidebar-video -->
+					<div class="sidebar-headline"></div>
+					<div class="sidebar-content">
+						<p>Mr. Mitchell tells his story of serving in the Navy during World War Two and his now experience with friendly Meals on Wheels volunteers. He has been a client for Meals on Wheels for three years.</p>
+					</div><!-- END #sidebar-content -->
+				</li>
+			</ul>
 		</div><!-- END #home-sidebar -->
 		
 		<div class="clear"></div>
@@ -51,7 +73,7 @@
 <script type="text/javascript">
 	// HOMEPAGE FEATURE SLIDER
 	$(window).load(function() {
-	  $('.flexslider').flexslider({
+	  $('#feature-slider').flexslider({
       	animation: "fade",
       	animationLoop: true,
       	slideshowSpeed: 5000,
@@ -62,6 +84,21 @@
       	
 	  });
 	});
+	
+	// HOMEPAGE SIDEBAR SLIDER
+	$(window).load(function() {
+	  $('#home-sidebar').flexslider({
+	  	animation: "fade",
+	  	animationLoop: true,
+	  	slideshowSpeed: 5000,
+	  	animationSpeed: 600,
+	  	touch: true, 
+	  	controlNav: false,
+	  	directionNav: false
+	  	
+	  });
+	});
+	
 </script>
 
 <?php include 'includes/footer.php'; ?>

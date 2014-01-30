@@ -48,12 +48,8 @@
 			</div><!-- END .faq-item -->
 			
 			<div class="faq-item">
-				<div class="faq-q-line faq-teal">Q :</div>
-				<div class="faq-left-line faq-teal">The client asked me to help them around the house. What do I do?</div>
-				<div class="clear" style="height: 5px;"></div>
-				<div class="faq-q-line faq-teal">A :</div>
-				<div class="faq-text">As far as your responsibilities as a Meals on Wheels volunteer go, once you deliver the meal and make sure all is OK, you are finished. However, some clients may ask you to do small things for them while you’re there. Some of these things might include: bringing in the mail/newspaper from outside, putting the meal away in the refrigerator, opening the meal package, or reaching something from a high shelf. Again, we understand that many volunteers are on tight schedules, and you are not required by City Fare to do these things for the clients, but you are free to help out in whatever way you choose.</div>
-				<div class="clear"></div>
+				<div class="faq-q-line faq-teal"></div>
+<div class="clear"></div>
 			</div><!-- END .faq-item -->		
 			
 			<div class="faq-item">

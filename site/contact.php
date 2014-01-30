@@ -74,7 +74,7 @@
 		<ul id="contact-nav">
 			<li style="margin-bottom: 25px;"><img src="/images/address-icon-black.png" align="left" />1703 West 10th Street<br/>Wilmington, DE 19805</li>
 			<li style="margin-bottom: 35px;"><img src="/images/phone-icon-black.png" align="left" /><span style="position: relative; top: 8px;">(302) 421-3734</span></li>
-			<li style="margin-bottom: 30px;"><img src="/images/email-icon-black.png" align="left" /><a href="mailto:admin@cityfare.org" style="position: relative; top: 10px;">admin@cityfare.org</a></li>
+			<li style="margin-bottom: 30px;"><img src="/images/email-icon-black.png" align="left" /><a href="mailto:info@cityfare.org" style="position: relative; top: 10px;">info@cityfare.org</a></li>
 		</ul>
 		
 		<div class="clear"></div>

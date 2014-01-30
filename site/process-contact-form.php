@@ -5,7 +5,7 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 $subject = $_POST['subject'];
 $formcontent=" From: $name \n Email: $email \n Phone: $phone \n Message: $message";
-$recipient = "steve@steveroettger.com";
+$recipient = "info@cityfare.org";
 $subject = "City Fare Contact Submission || " . $_POST['subject'];
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");

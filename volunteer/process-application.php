@@ -87,7 +87,7 @@ $formcontent="
 	In what capacity? $rCapacityTwo \n
 ";
 
-$recipient = "steve@steveroettger.com";
+$recipient = "info@cityfare.org";
 
 $subject = "Volunteer Application";
 

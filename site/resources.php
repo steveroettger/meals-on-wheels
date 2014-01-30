@@ -7,13 +7,13 @@
 		<table id="resources">
 			<tr>
 				<td>
-					<a href="#" target="_blank">
+					<a href="http://www.delawareadrc.com/" target="_blank">
 						<img src="/images/de-aging-pdf.jpg" alt="Delaware Aging & Disability Resource Center" /><br/>
 						Delaware Aging & Disability<br/> Resource Center
 					</a>
 				</td>
 				<td>
-					<a href="#" target="_blank">
+					<a href="http://www.dhss.delaware.gov/dhss/dsaapd/files/aging_and_disabilities_guide.pdf" target="_blank">
 						<img src="/images/guide-services-pdf.jpg" alt="Guide to Services for Older Delawareans and Persons with Disabilities" /><br/>
 						Guide to Services for Older<br/> Delawareans and Persons with<br/> Disabilities
 					</a>
@@ -22,7 +22,7 @@
 			<tr style="height: 40px;"></tr>
 			<tr>
 				<td>
-					<a href="#" target="_blank">
+					<a href="http://www.mowaa.org/" target="_blank">
 						<img src="/images/mow-pdf.jpg" alt="Meals on Wheels Association of America" /><br/>
 						Meals on Wheels Association<br/> of America
 				</a>

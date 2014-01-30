@@ -76,7 +76,7 @@
 				<div class="faq-left-line faq-teal">OK, I'm in! What's the next step?</div>
 				<div class="clear" style="height: 5px;"></div>
 				<div class="faq-q-line faq-teal">A :</div>
-				<div class="faq-text">Call Katie Soja at (302) 421-3731 to get an application or click <a href="#">HERE.</a></div>
+				<div class="faq-text">Call Katie Soja at (302) 421-3731 to get an application or click <a href="http://cityfare.org/volunteer/volunteer-application.php">HERE.</a></div>
 				<div class="clear"></div>
 			</div><!-- END .faq-item -->
 			
