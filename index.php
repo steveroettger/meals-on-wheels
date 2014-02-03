@@ -31,7 +31,7 @@
 			<div id="home-headline"></div>
 			<div class="main-content">
 				<p>City Fare Meals on Wheels, a program of Saint Anthony’s Community Center, has operated in Wilmington since 1986. We provide hot, nourishing meals to homebound elderly and disabled persons in New Castle County who are unable to prepare meals for themselves and who have no one to do so for them. We also provide professional case management to every client. The meals, daily contact by caring volunteers, and staff who coordinate other services as needed allow frail, otherwise forgotten, homebound persons to remain living independently in their own homes.</p>
-				<div class="fb-activity" data-site="developers.facebook.com" data-action="likes, recommends" data-width="500" data-height="150" data-colorscheme="light" data-header="true"></div>
+				<div class="fb-like-box" data-href="http://www.facebook.com/CityFareMOW" data-width="500" data-height="200" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="true" data-show-border="true"></div>
 			</div><!-- END .main-content -->
 		</div><!-- END #home-container -->
 		
