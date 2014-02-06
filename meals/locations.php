@@ -16,9 +16,8 @@
 		
 		<div id="interior-content">
 			<h1>Locations</h1>
-			<p style="text-align:center;">In addition to home delivered meals, City Fare also caters to more active seniors in New Castle County. We cordially invite you to attend one of our senior centers to enjoy the same healthy, delicious meal and meet some new friends at the same time! Contact a senior center directly to get set up with meals there.</p>
-			
-			<table id="location-listing">
+			<p>In addition to home delivered meals, City Fare also caters to more active seniors in New Castle County. We cordially invite you to attend one of our senior centers to enjoy the same healthy, delicious meal and meet some new friends at the same time! Contact a senior center directly to get set up with meals there.</p>
+			<table class="location-listing">
 				<tr>
 					<td class="col-label">Senior Centers</td>
 					<td class="col-label">Address</td>
@@ -47,7 +46,7 @@
 				<tr>
 					<td>Delawarr</td>
 					<td>19 Lambson Lane<br/>New Castle, 19720</td>
-					<td>(302) 429-0581</td>
+					<td>(302) 429-0581</td>
 				</tr>
 				<tr>
 					<td>Jewish Community Center</td>
@@ -91,39 +90,39 @@
 				</tr>
 				<tr>
 					<td>Salvation Army</td>
-					<td>102 W 5th Street<br/>Wilmington, 19801</td>
+					<td>102 W 5th Street<br/>Wilmington, 19801</td>
 					<td>(302) 472-0770</td>
 				</tr>
-				<tr>
-					<td>Sellers</td>
-					<td>500 Duncan Road<br/>Wilmington, 19809</td>
-					<td>(302) 762-2050</td>
-				</tr>
-				<tr>
-					<td>St Anthony's</td>
-					<td>1703 W 10th Street<br/>Wilmington, 19805</td>
-					<td>(302) 421-3735</td>
+				<tr>
+					<td>Sellers</td>
+					<td>500 Duncan Road<br/>Wilmington, 19809</td>
+					<td>(302) 762-2050</td>
 				</tr>
-				<tr>
-					<td>St Patrick's</td>
-					<td>107 E 14th Street<br/>Wilmington, 19801</td>
-					<td>(302) 652-6219</td>
+				<tr>
+					<td>St Anthony's</td>
+					<td>1703 W 10th Street<br/>Wilmington, 19805</td>
+					<td>(302) 421-3735</td>
 				</tr>
-				<tr>
+				<tr>
+					<td>St Patrick's</td>
+					<td>107 E 14th Street<br/>Wilmington, 19801</td>
+					<td>(302) 652-6219</td>
+				</tr>
+				<tr>
 					<td>West Center City</td>
-					<td>501 N Madison Street<br/>Wilmington, 19801</td>
-					<td>(302) 658-5332</td>
-				</tr>
+					<td>501 N Madison Street<br/>Wilmington, 19801</td>
+					<td>(302) 658-5332</td>
+				</tr>
 				<tr>
 					<td>Wilmington</td>
 					<td>1901 N Market Street<br/>Wilmington, 19801</td>
-					<td>(302) 651-3400</td>
-				</tr>					
+					<td>(302) 651-3400</td>
+				</tr>
 			</table>
             
-            <br><br>
+            <br/><br/>
             
-            <table id="location-listing">
+            <table class="location-listing">
 				<tr>
 					<td class="col-label">Senior Housing <br/>(Must be a Resident)</td>
 					<td class="col-label">Address</td>
@@ -131,53 +130,45 @@
 				</tr>
 				<tr>
 					<td>C&amp;D Senior Center</td>
-					<td>100 Liberty Terrace<br/>Newark, 19702
-					</td>
+					<td>100 Liberty Terrace<br/>Newark, 19702</td>
 					<td>(302) 323-2630</td>
 				</tr>
                 <tr>
 					<td>Compton Towers</td>
-					<td>325 E. 5th Street<br/>Wilmington, 19801
-					</td>
+					<td>325 E. 5th Street<br/>Wilmington, 19801</td>
 					<td>(302) 429-6774</td>
 				</tr>
                 <tr>
 					<td>Ingleside</td>
-					<td>1005 N. Franklin Street<br/>Wilmington, 19806
-					</td>
+					<td>1005 N. Franklin Street<br/>Wilmington, 19806</td>
 					<td>(302) 575-0250</td>
 				</tr>
                 <tr>
 					<td>Parkview</td>
-					<td>1800 N. Broom Street<br/>Wilmington, 19802
-					<</td>
+					<td>1800 N. Broom Street<br/>Wilmington, 19802</td>
 					<td>(302) 429-7288</td>
 				</tr>
                 <tr>
 					<td>Terry Apartments</td>
-					<td>2400 N. Broom Street<br/>Wilmington, 19802
-					</td>
+					<td>2400 N. Broom Street<br/>Wilmington, 19802</td>
 					<td>(302) 655-6661</td>
 				</tr>
                 <tr>
 					<td>Woodlea Apartments</td>
-					<td>5500 Fairmont Drive<br/>Wilmington, 19808
-					</td>
+					<td>5500 Fairmont Drive<br/>Wilmington, 19808</td>
 					<td>(302) 737-5616</td>
 				</tr>
                 <tr>
-					<td>Maplewood Aprtments</td>
-					<td>501 S. Rodney Street<br/>Wilmington, 19805
-					</td>
+					<td>Maplewood Apartments</td>
+					<td>501 S. Rodney Street<br/>Wilmington, 19805</td>
 					<td>(302) 421-9198</td>
 				</tr>
                 <tr>
 					<td>Sacred Heart Village</td>
-					<td>922 Madison Street<br/>Wilmington, 19801
-					</td>
+					<td>922 Madison Street<br/>Wilmington, 19801</td>
 					<td>(302) 654-5407</td>
 				</tr>
-                </table>
+        	</table>
 		</div><!-- END #interior-content -->
 			
 		<div class="clear"></div><!-- END .clear -->

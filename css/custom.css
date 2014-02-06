@@ -532,12 +532,12 @@ ul#volunteer-list li {
 	color: #ffffff !important;
 }
 
-table#location-listing {
+table.location-listing {
 	margin: 0 auto;
 	width: 690px;
 }
 
-table#location-listing tr td {
+table.location-listing tr td {
 	padding-bottom: 5px;
 	width: 230px;
 	font-family: 'Armata', sans-serif;
@@ -547,7 +547,7 @@ table#location-listing tr td {
 	color: #000000;
 }
 
-table#location-listing tr td.col-label {
+table.location-listing tr td.col-label {
 	font-family: 'Armata', sans-serif;
 	font-size: 16px;
 	line-height: 18px;
